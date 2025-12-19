@@ -1,2 +1,3 @@
+import 'dotenv/config';
 
-console.log('hello world');
+console.log(process.env.OPENROUTER_API_KEY);
